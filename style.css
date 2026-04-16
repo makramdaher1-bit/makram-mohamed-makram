@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*
+{
+    margin : 0;
+    font-family: "Roboto", sans-serif;
+
+}
+
+body
+{
+
+background-image:url('pro.png')  ; 
+z-index: -1 ; 
+
+}
+
+nav 
+{
+    padding: 0.5em;
+
+    display : flex  ;
+    justify-content: space-around ;
+    
+}
+
+nav>a
+{
+    display: block;
+    border-color: rgb(7, 205, 219);
+    text-decoration : none ; color :white;
+    transition: 0.3s;
+}
+.nav-link {
+  text-decoration: none;
+  color: white;
+  font-family: serif;    
+  padding: 8px 25px;      
+  border: 1px solid #ccc; 
+  border-radius: 50px;    
+  background-color: rgb(20, 141, 157); 
+  transition: 0.3s;
+}
+
+h1
+{
+    font-size: 50px;
+
+    margin : 1em ;
+    text-align: center;
+    color : rgb(7, 205, 219);
+    
+}
+.SE>h2{
+    font-size: 2em;
+}
+h2
+{
+    font-size: 3em;
+    margin : 1em ;
+    text-align: center;
+    color : rgb(7, 205, 219);
+    
+}
+
+.BT
+{
+    display: block;
+    text-align: center;
+    justify-self: center;
+    background-color: rgb(7, 205, 219);
+    width: 10em;
+    height: 2em;
+    transition: 0.3s;
+}
+
+.BT >a
+{
+    
+    text-decoration: none;
+    color: white;
+}
+
+.SE
+{
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1em;
+    color: rgb(7, 205, 219);
+}
+
+footer
+{
+    background-color:rgb(20, 141, 157) ;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position:fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+  
+
+}
+
+table
+{
+    padding: 15px;
+    border-collapse: collapse ;
+    width: 100% ;
+
+}
+
+table,th,td
+{
+    border : 1px solid  rgb(7, 205, 219);
+    justify-self: center;
+}
+
+th
+{
+
+    height: 50px ;
+    color:rgb(7, 205, 219);
+    justify-self: center;
+    font-size: 30px;
+    
+}
+
+
+td
+{
+    font-size: 20px ;
+    color: white;
+    justify-self: center;
+}
+
+label
+{
+    color:  rgb(7, 205, 219) ;
+    font-size: 21px;
+}
+footer>a{
+    text-decoration: none;
+    color:white;
+    margin: 0.1em;
+    transition: 0.3s;
+}
+.FO {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 3em;
+    margin-top: 30px;
+    margin-bottom: 4em;
+}
+.FO>label{
+    font-size: 2em;
+}
+.FO>input,textarea{
+    width: 50%;
+    transition: 0.3s;
+}
+.FO>input:hover,textarea:hover{
+    width:70%;
+}
+a:hover{
+    margin-top: 0.5em;
+}
+.BT:hover{
+    height: 6vh;
+}
+label:hover{
+    border: 2px;
+    border-color: rgb(7, 205, 219);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
