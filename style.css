@@ -161,50 +161,34 @@ label:hover
     border-color: rgb(7, 205, 219);
 }
 
-@media screen and (min-width: 600px) 
-{
-    nav 
-    {
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-    }
-    .nav-link 
-    {
-        width: 80%;
-        text-align: center;
-    }
-    h1 
-    {
-         font-size: 30px; 
-    }
-
-    h2 
-    {
-         font-size: 25px; 
-    }
-    .FO > input, .FO > textarea 
-    {
-        width: 95% !important; 
-    }    
-    .FO > input:hover, .FO > textarea:hover 
-    {
-        width: 100% !important;
-    }
-    table 
-    {
+@media(max-width:600px){
+    h1{
+        font-size: 2em; 
         display: block;
+        text-align: center;
+        margin: 1em;
+    }
+    h2{
+        display: block;
+        font-size: 1.5em;
+        text-align: center;
+        margin: 1em ;
+    }
+    table{
+        display: block;
+        width: 100%;
         overflow-x: auto;
         white-space: nowrap;
+        padding: 0.5em;
+        border-spacing: 0.7em;
     }
-    footer 
-    {
-        position: relative;
-        margin-top: 20px;
+    th{
+        font-size: 1em;
     }
-    .SE 
-    {
-        font-size: 18px;
-        text-align: center;
+    tr,td{
+        font-size: 0.7em;
+    }
+    .nav-link{
+        font-size: 0.6em;
     }
 }
