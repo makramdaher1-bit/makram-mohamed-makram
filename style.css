@@ -3,26 +3,18 @@
 {
     margin : 0;
     font-family: "Roboto", sans-serif;
-
 }
-
 body
 {
-
 background-image:url('pro.png')  ; 
 z-index: -1 ; 
-
 }
-
 nav 
 {
     padding: 0.5em;
-
     display : flex  ;
-    justify-content: space-around ;
-    
+    justify-content: space-around ;   
 }
-
 nav>a
 {
     display: block;
@@ -40,17 +32,15 @@ nav>a
   background-color: rgb(20, 141, 157); 
   transition: 0.3s;
 }
-
 h1
 {
     font-size: 50px;
-
     margin : 1em ;
     text-align: center;
-    color : rgb(7, 205, 219);
-    
+    color : rgb(7, 205, 219);    
 }
-.SE>h2{
+.SE>h2
+{
     font-size: 2em;
 }
 h2
@@ -61,7 +51,6 @@ h2
     color : rgb(7, 205, 219);
     
 }
-
 .BT
 {
     display: block;
@@ -72,14 +61,11 @@ h2
     height: 2em;
     transition: 0.3s;
 }
-
 .BT >a
-{
-    
+{   
     text-decoration: none;
     color: white;
 }
-
 .SE
 {
     font-size: 25px;
@@ -89,7 +75,6 @@ h2
     margin: 1em;
     color: rgb(7, 205, 219);
 }
-
 footer
 {
     background-color:rgb(20, 141, 157) ;
@@ -101,24 +86,18 @@ footer
     right: 0;
     bottom: 0;
     width: 100%;
-  
-
 }
-
 table
 {
     padding: 15px;
     border-collapse: collapse ;
     width: 100% ;
-
 }
-
 table,th,td
 {
     border : 1px solid  rgb(7, 205, 219);
     justify-self: center;
 }
-
 th
 {
 
@@ -128,27 +107,26 @@ th
     font-size: 30px;
     
 }
-
-
 td
 {
     font-size: 20px ;
     color: white;
     justify-self: center;
 }
-
 label
 {
     color:  rgb(7, 205, 219) ;
     font-size: 21px;
 }
-footer>a{
+footer>a
+{
     text-decoration: none;
     color:white;
     margin: 0.1em;
     transition: 0.3s;
 }
-.FO {
+.FO 
+{
     display: flex;
     flex-direction: column;
     align-items: center; 
@@ -156,58 +134,77 @@ footer>a{
     margin-top: 30px;
     margin-bottom: 4em;
 }
-.FO>label{
+.FO>label
+{
     font-size: 2em;
 }
-.FO>input,textarea{
+.FO>input,textarea
+{
     width: 50%;
     transition: 0.3s;
 }
-.FO>input:hover,textarea:hover{
+.FO>input:hover,textarea:hover
+{
     width:70%;
 }
-a:hover{
+a:hover
+{
     margin-top: 0.5em;
 }
-.BT:hover{
+.BT:hover
+{
     height: 6vh;
 }
-label:hover{
+label:hover
+{
     border: 2px;
     border-color: rgb(7, 205, 219);
 }
 
+@media screen and (min-width: 600px) 
+{
+    nav 
+    {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .nav-link 
+    {
+        width: 80%;
+        text-align: center;
+    }
+    h1 
+    {
+         font-size: 30px; 
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    h2 
+    {
+         font-size: 25px; 
+    }
+    .FO > input, .FO > textarea 
+    {
+        width: 95% !important; 
+    }    
+    .FO > input:hover, .FO > textarea:hover 
+    {
+        width: 100% !important;
+    }
+    table 
+    {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    footer 
+    {
+        position: relative;
+        margin-top: 20px;
+    }
+    .SE 
+    {
+        font-size: 18px;
+        text-align: center;
+    }
+}
